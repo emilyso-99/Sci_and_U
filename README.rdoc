@@ -1,0 +1,43 @@
+== README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+    must have ruby 2.4.6 to operate. Install, and set local version to 2.4.6
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+    Import/create database within an existing Postgres server on a local machine. Before deploying the Rails application, 
+    turn the PostGres server on
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+   - Navigate to the app/ folder of the repository
+   - Once within the app/ folder, run the command "rails server"
+   - When the message " Rails 5.0.7 application starting in development on http://localhost:3000 appears", click the webpage link
+   - In your browser, the webpage will appear
+* ...
+
+* kinds of object that are available, organize different areas 
+depending on how dynamic everything is
+
+*ENGINES*
+in the directory ./engines/ is where all plugins/modifications can be put! please refer to the README in that directory for instructions
+on how to create/install plugins of your own!
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
